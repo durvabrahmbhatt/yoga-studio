@@ -2025,10 +2025,11 @@ textarea.form-control {
 
 /* Relax Section */
 .relax-section {
-  margin-top: 30px;
+  margin: 50px 30px;
   text-align: center;
   background-color: #f0f4f5;
   padding: 20px;
+
   border-radius: 8px;
 }
 
