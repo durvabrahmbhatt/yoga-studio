@@ -1988,6 +1988,79 @@ textarea.form-control {
   background-color: #45a049;
 }
 
+/* General Styles */
+.section-heading {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.class-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.class-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.class-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Image Styling */
+.class-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Relax Section */
+.relax-section {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #f0f4f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.relax-section h3 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.relax-section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .class-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .class-card p {
+    font-size: 0.9rem;
+  }
+
+  .relax-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .relax-section p {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 768px) {
   .contact-section {
     padding: 20px 10px;
@@ -2004,7 +2077,7 @@ textarea.form-control {
   }
 }
 
-.container {
+.about-container {
   max-width: 800px;
   margin: 0 auto;
 }
